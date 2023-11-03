@@ -1,0 +1,53 @@
+const data = {
+  products: [
+    {
+      name: 'Nike Slim shirt',
+      slug: 'nike-slim-shirt',
+      category: 'Shirts',
+      image: '/images/p1.jpg', // 679px × 829px
+      price: 499,
+      countInStock: 10,
+      brand: 'Nike',
+      rating: 4.5,
+      numReviews: 10,
+      description: 'high quality shirt',
+    },
+    {
+      name: 'Adidas Fit Shirt',
+      slug: 'adidas-fit-shirt',
+      category: 'Shirts',
+      image: 'https://img.freepik.com/free-photo/black-front-sweater_125540-763.jpg?w=826&t=st=1665509603~exp=1665510203~hmac=eef86860547cfcacf380aad1a38c40caacaa83f39daa7f71158c1077c6534060',
+      price: 250,
+      countInStock: 20,
+      brand: 'Adidas',
+      rating: 4.0,
+      numReviews: 10,
+      description: 'high quality product',
+    },
+    {
+      name: 'Nike Slim Pant',
+      slug: 'nike-slim-pant',
+      category: 'Pants',
+      image: '/images/p3.jpg',
+      price: 250,
+      countInStock: 15,
+      brand: 'Nike',
+      rating: 4.5,
+      numReviews: 14,
+      description: 'high quality product',
+    },
+    {
+      name: 'Adidas Fit Pant',
+      slug: 'adidas-fit-pant',
+      category: 'Pants',
+      image: '/images/p4.jpg',
+      price: 65,
+      countInStock: 5,
+      brand: 'Puma',
+      rating: 4.5,
+      numReviews: 10,
+      description: 'high quality product',
+    },
+  ],
+};
+export default data;
